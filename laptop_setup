@@ -1,0 +1,236 @@
+#!/bin/bash
+
+# shellcheck disable=SC2154
+trap 'ret=$?; test $ret -ne 0 && printf "failed\n\n" >&2; exit $ret' EXIT
+
+# http://redsymbol.net/articles/unofficial-bash-strict-mode/
+set -e
+
+fancy_echo() {
+  local fmt="$1"; shift
+
+  # shellcheck disable=SC2059
+  printf "\n$fmt\n" "$@"
+}
+
+pre_setup() {
+  if [ ! -d "$HOME/.bin/" ]; then
+    mkdir "$HOME/.bin"
+  fi
+
+  if [ ! -f "$HOME/.zshrc" ]; then
+    touch "$HOME/.zshrc"
+  fi
+
+  if [ ! -f "$HOME/.Brewfile" ]; then
+    touch "$HOME/.Brewfile"
+  fi
+
+  # shellcheck disable=SC2016
+  append_to_zshrc 'export PATH="$HOME/.bin:$PATH"'
+
+  # Determine Homebrew prefix
+  ARCH="$(uname -m)"
+  if [ "$ARCH" = "arm64" ]; then
+    HOMEBREW_PREFIX="/opt/homebrew"
+  else
+    HOMEBREW_PREFIX="/usr/local"
+  fi
+}
+
+append_to_zshrc() {
+  local text="$1" zshrc
+  local skip_new_line="${2:-0}"
+
+  if [ -w "$HOME/.zshrc.local" ]; then
+    zshrc="$HOME/.zshrc.local"
+  else
+    zshrc="$HOME/.zshrc"
+  fi
+
+  if ! grep -Fqs "$text" "$zshrc"; then
+    if [ "$skip_new_line" -eq 1 ]; then
+      printf "%s\n" "$text" >> "$zshrc"
+    else
+      printf "\n%s\n" "$text" >> "$zshrc"
+    fi
+  fi
+}
+
+prepend_to_zshrc() {
+  local text="$1" zshrc
+
+  if [ -w "$HOME/.zshrc.local" ]; then
+    zshrc="$HOME/.zshrc.local"
+  else
+    zshrc="$HOME/.zshrc"
+  fi
+
+  echo -e "$text\n\n$(cat $zshrc)" > $zshrc
+}
+config_zsh() {
+    read -r -p "Do you want to install Zsh's extensions? [Y|n] " response
+
+  if [[ ! $response =~ (n|no|N) ]];then
+    sudo chsh -s $(which zsh)
+
+    fancy_echo "Installing Oh my Zsh"
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" "" --unattended
+
+    if [ ! -d ~/.zsh/zsh-defer ]; then
+      git clone https://github.com/romkatv/zsh-defer.git ~/.zsh/zsh-defer
+      prepend_to_zshrc 'source ~/.zsh/zsh-defer/zsh-defer.plugin.zsh'
+    fi
+    if [ ! -d ~/.zsh/zsh-autosuggestions ]; then
+      git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.zsh/zsh-autosuggestions
+      prepend_to_zshrc 'source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh'
+    fi
+    if [ ! -d ~/.zsh/zsh-syntax-highlighting ]; then
+      git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh/zsh-syntax-highlighting
+      prepend_to_zshrc 'source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh'
+    fi
+    if [ ! -d ~/.oh-my-zsh/custom/plugins/zsh-completions ]; then
+      git clone https://github.com/zsh-users/zsh-completions.git ~/.oh-my-zsh/custom/plugins/zsh-completions
+      prepend_to_zshrc 'fpath+=~/.oh-my-zsh/custom/plugins/zsh-completions/src'
+    fi
+
+    prepend_to_zshrc 'ZSH_DISABLE_COMPFIX=true'
+
+    # shellcheck disable=SC2016
+    append_to_zshrc 'export PATH="$HOME/.bin:$PATH"'
+
+    zsh_config_homebrew
+
+    # shellcheck disable=SC2016
+    append_to_zshrc 'export PATH=~/.asdf/shims:$PATH'
+
+    fancy_echo "Configured Zsh"
+  fi
+}
+
+gem_install_or_update() {
+  if gem list "$1" --installed > /dev/null; then
+    gem update "$@"
+  else
+    gem install "$@"
+  fi
+}
+
+install_homebrew() {
+  if ! command -v brew >/dev/null; then
+    fancy_echo "Installing Homebrew ..."
+      /bin/bash -c \
+        "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+      zsh_config_homebrew
+
+      export PATH="$HOMEBREW_PREFIX/bin:$PATH"
+  fi
+
+  if brew list | grep -Fq brew-cask; then
+    fancy_echo "Uninstalling old Homebrew-Cask ..."
+    brew uninstall --force brew-cask
+  fi
+}
+
+install_dependencies() {
+  fancy_echo "Updating Homebrew formulae ..."
+  brew tap --repair
+  brew cleanup
+  brew update-reset
+  fancy_echo "Installing dependencies"
+  brew bundle --global --verbose --no-upgrade
+
+
+  fancy_echo "Installed dependencies"
+}
+
+install_general_dependencies() {
+    fancy_echo "Installing general dependencies"
+
+    brew install --cask firefox
+    brew install --cask google-chrome
+    brew install --cask postman
+    brew install --cask iterm2
+    brew install --cask protonvpn
+    brew install --cask rectangle
+    brew install --cask sublime-text
+    brew install --cask dbeaver-community
+    brew install --cask lulu
+    brew install --cask microsoft-edge
+    brew install --cask openkey
+    brew install --cask firefox-developer-edition
+    brew install --cask cloudflare-warp
+    brew install --cask notion
+    brew install --cask monitorcontrol
+    brew install --cask visual-studio-code
+    brew install --cask bitwarden
+    brew install --cask the-unarchiver
+
+    fancy_echo "Installed general dependencies"
+}
+
+install_ios_dependencies() {
+    fancy_echo "Installing iOS dependencies"
+
+    brew install cocoapods  
+    brew install --cask sourcetree
+    brew install --cask xcodes
+
+    fancy_echo "Installed iOS dependencies"
+}
+
+install_android_dependencies() {
+    fancy_echo "Installing Android dependencies"
+
+    brew install --cask temurin
+    brew install --cask android-studio
+    brew install --cask android-sdk
+
+    fancy_echo "Installed Android dependencies"
+}
+
+install_microsoft_dependencies() {
+    fancy_echo "Installing Microsoft dependencies"
+
+    brew install --cask microsoft-teams
+    brew install --cask microsoft-word
+    brew install --cask microsoft-powerpoint
+    brew install --cask microsoft-excel
+    brew install --cask microsoft-outlook
+    brew install --cask microsoft-auto-update
+
+    fancy_echo "Installed Microsoft dependencies"
+}
+
+install() {
+  read -r -p "Do you want to install iOS's dependencies? [y|N] " ios_dep
+  read -r -p "Do you want to install Android's dependencies? [y|N] " android_dep
+  read -r -p "Do you want to install Microsoft's dependencies? [y|N] " microsoft_dep
+  pre_setup
+  install_homebrew
+  install_dependencies
+  install_general_dependencies
+
+  if [[ $ios_dep =~ (y|yes|Y) ]];then
+    install_ios_dependencies
+  fi
+
+  if [[ $android_dep =~ (y|yes|Y) ]];then
+    install_android_dependencies
+  fi
+
+  if [[ $microsoft_dep =~ (y|yes|Y) ]];then
+    install_microsoft_dependencies
+  fi
+
+  brew cleanup
+}
+
+# Run
+install
+
+# Zsh extensions
+config_zsh
+
+fancy_echo "Installation successful"
