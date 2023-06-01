@@ -72,8 +72,6 @@ Do you want to install Microsoft's dependencies? [y|N]
 ### iOS
 
 - [Cocoapods] a dependency manager for Cocoa projects
-- [Figma] helps teams create, test, and ship better designs from start to finish
-- [Proxyman] enables developers to observe and manipulate HTTP/HTTPS requests
 - [Atlassian SourceTree] a free Git client for Mac
 - [Xcodes] Xcode Version Management
 
