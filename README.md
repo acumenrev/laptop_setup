@@ -9,7 +9,7 @@ based on what is already installed on the machine.
 Download, review, then execute the script:
 
 ```bash
-curl --remote-name https://raw.githubusercontent.com/acumenrev/laptop_setup/master/laptop_setup
+curl -H "Cache-Control: no-cache" --remote-name https://raw.githubusercontent.com/acumenrev/laptop_setup/master/laptop_setup
 less mac
 bash mac 2>&1 | tee ~/macos_setup.log
 ```
@@ -91,7 +91,6 @@ Do you want to install Microsoft's dependencies? [y|N]
 [android studio]: https://developer.android.com/studio/index.html
 [android sdk]: https://developer.android.com/studio/releases/sdk-tools
 
-It should take less than 15 minutes to install (depending on your machine and internet speed).
 
 ### Microsoft
 
