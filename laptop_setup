@@ -22,10 +22,6 @@ pre_setup() {
     touch "$HOME/.zshrc"
   fi
 
-  if [ ! -f "$HOME/.Brewfile" ]; then
-    touch "$HOME/.Brewfile"
-  fi
-
   # shellcheck disable=SC2016
   append_to_zshrc 'export PATH="$HOME/.bin:$PATH"'
 
@@ -99,7 +95,6 @@ config_zsh() {
     # shellcheck disable=SC2016
     append_to_zshrc 'export PATH="$HOME/.bin:$PATH"'
 
-    zsh_config_homebrew
 
     # shellcheck disable=SC2016
     append_to_zshrc 'export PATH=~/.asdf/shims:$PATH'
@@ -122,8 +117,6 @@ install_homebrew() {
       /bin/bash -c \
         "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-      zsh_config_homebrew
-
       export PATH="$HOMEBREW_PREFIX/bin:$PATH"
   fi
 
@@ -135,9 +128,9 @@ install_homebrew() {
 
 install_dependencies() {
   fancy_echo "Updating Homebrew formulae ..."
-  brew tap --repair
-  brew cleanup
-  brew update-reset
+#   brew tap --repair
+#   brew cleanup
+#   brew update-reset
   fancy_echo "Installing dependencies"
   brew bundle --global --verbose --no-upgrade
 
