@@ -9,7 +9,7 @@ based on what is already installed on the machine.
 Download, review, then execute the script:
 
 ```bash
-curl --remote-name https://raw.githubusercontent.com/acumenrev/macos_setup/main/mac
+curl --remote-name https://raw.githubusercontent.com/acumenrev/laptop_setup/master/laptop_setup
 less mac
 bash mac 2>&1 | tee ~/macos_setup.log
 ```
