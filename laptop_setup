@@ -152,7 +152,6 @@ install_general_dependencies() {
     brew install --cask lulu
     brew install --cask microsoft-edge
     brew install --cask openkey
-    brew install --cask firefox-developer-edition
     brew install --cask cloudflare-warp
     brew install --cask notion
     brew install --cask monitorcontrol
