@@ -22,6 +22,8 @@ pre_setup() {
     touch "$HOME/.zshrc"
   fi
 
+  touch "$HOME/.Brewfile" && echo "" > "$HOME/.Brewfile"
+
   # shellcheck disable=SC2016
   append_to_zshrc 'export PATH="$HOME/.bin:$PATH"'
 
