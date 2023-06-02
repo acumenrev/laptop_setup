@@ -42,7 +42,7 @@ Do you want to install Microsoft's dependencies? [y|N]
 - [Sublime Text] Text Editing, Done Right
 - [DBeaver Community Edition]  Universal Database Tool 
 - [LuLu] LuLu is the free, open-source firewall that aims to block unknown outgoing connections, protecting your privacy and your Mac! 
-- [OpenKey] Vietname Input System
+- [OpenKey] Vietnamese Input System
 - [Cloudfare Warp] The free app that makes your Internet safer
 - [Notion] App to write, plan, collaborate, and get organized
 - [Monitor Control] Tool to control external monitor brightness & volume
