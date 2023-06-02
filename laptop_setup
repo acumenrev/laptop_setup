@@ -130,9 +130,9 @@ install_homebrew() {
 
 install_dependencies() {
   fancy_echo "Updating Homebrew formulae ..."
-#   brew tap --repair
-#   brew cleanup
-#   brew update-reset
+  brew tap --repair
+  brew cleanup
+  brew update-reset
   fancy_echo "Installing dependencies"
   brew bundle --global --verbose --no-upgrade
 
@@ -160,6 +160,7 @@ install_general_dependencies() {
     brew install --force --cask visual-studio-code
     brew install --force --cask bitwarden
     brew install --force --cask the-unarchiver
+    brew install --force --cask cakebrew
 
     fancy_echo "Installed general dependencies"
 }
