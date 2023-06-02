@@ -1,4 +1,4 @@
-This is a script to set up an OS X laptop for mobile development.
+This is a script to set up an macOS laptop for mobile development.
 
 It can be run multiple times on the same machine safely.
 It installs, upgrades, or skips packages
