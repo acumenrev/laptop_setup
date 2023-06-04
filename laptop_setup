@@ -199,13 +199,17 @@ install_microsoft_dependencies() {
 }
 
 install() {
+  read -r -p "Do you want to install default dependencies? [y|N] " default_dep
   read -r -p "Do you want to install iOS's dependencies? [y|N] " ios_dep
   read -r -p "Do you want to install Android's dependencies? [y|N] " android_dep
   read -r -p "Do you want to install Microsoft's dependencies? [y|N] " microsoft_dep
   pre_setup
   install_homebrew
   install_dependencies
-  install_general_dependencies
+
+  if [[ $default_dep =~ (y|yes|Y) ]];then
+    install_general_dependencies
+  fi
 
   if [[ $ios_dep =~ (y|yes|Y) ]];then
     install_ios_dependencies
