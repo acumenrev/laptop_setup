@@ -18,6 +18,7 @@ bash mac 2>&1 | tee ~/macos_setup.log
 Choose the additional packages when the prompts appear:
 
 ```
+Do you want to install default dependencies? [y|N]
 Do you want to install iOS's dependencies? [y|N]
 Do you want to install Android's dependencies? [y|N]
 Do you want to install Microsoft's dependencies? [y|N]
