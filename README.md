@@ -28,9 +28,8 @@ Do you want to install Microsoft's dependencies? [y|N]
 
 ### Default
 - [Firefox] Firefox Browser
-- [Firefox Developer Edition] Firefox Developer Edition
 - [Microsoft Edge] Microsoft Edge
-- [Google Chrome] as the default browser
+- [Google Chrome] Google Chrome
 - [Postman] a collaboration platform for API development
 - [iTerm2] a replacement for Terminal
 - [Homebrew] for managing operating system libraries
@@ -49,7 +48,6 @@ Do you want to install Microsoft's dependencies? [y|N]
 - [Monitor Control] Tool to control external monitor brightness & volume
 
 [Firefox]: https://www.mozilla.org/en-US/firefox/new/
-[Firefox Developer Edition]: https://www.mozilla.org/en-US/firefox/developer/
 [Microsoft Edge]: https://www.microsoft.com/en-us/edge
 [google chrome]: https://www.google.com/chrome/
 [postman]: https://www.postman.com/
