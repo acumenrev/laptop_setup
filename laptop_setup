@@ -158,7 +158,6 @@ install_general_dependencies() {
     brew install --force --cask notion
     brew install --force --cask monitorcontrol
     brew install --force --cask visual-studio-code
-    brew install --force --cask bitwarden
     brew install --force --cask the-unarchiver
     brew install --force --cask cakebrew
 
