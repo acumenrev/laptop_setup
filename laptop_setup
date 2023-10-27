@@ -146,13 +146,13 @@ install_general_dependencies() {
     brew install --force --cask firefox
     brew install --force --cask google-chrome
     brew install --force --cask postman
-    brew install --force --cask iterm2
+    brew install --force --cask hyper
     brew install --force --cask protonvpn
     brew install --force --cask rectangle
     brew install --force --cask sublime-text
     brew install --force --cask dbeaver-community
     brew install --force --cask lulu
-    brew install --force --cask microsoft-edge
+    brew install --force --cask vivaldi
     brew install --force --cask openkey
     brew install --force --cask cloudflare-warp
     brew install --force --cask notion
