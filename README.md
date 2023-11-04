@@ -19,21 +19,21 @@ Choose the additional packages when the prompts appear:
 
 ```
 Do you want to install default dependencies? [y|N]
-Do you want to install iOS's dependencies? [y|N]
-Do you want to install Android's dependencies? [y|N]
-Do you want to install Microsoft's dependencies? [y|N]
+Do you want to install iOS dependencies? [y|N]
+Do you want to install backend dependencies? [y|N]
+Do you want to install Android dependencies? [y|N]
+Do you want to install Microsoft dependencies? [y|N]
 ```
 
 ## What it sets up
 
 ### Default
 - [Firefox] Firefox Browser
-- [Microsoft Edge] Microsoft Edge
+- [Vivaldi] Vivaldi Browser
 - [Google Chrome] Google Chrome
 - [Postman] a collaboration platform for API development
-- [iTerm2] a replacement for Terminal
+- [Hyper] a replacement for Terminal
 - [Homebrew] for managing operating system libraries
-- [NVM] for managing versions of Node.JS
 - [Zsh] as your shell
 - [oh-my-zsh] to spice up your shell
 - [VS Code] code editor
@@ -46,15 +46,17 @@ Do you want to install Microsoft's dependencies? [y|N]
 - [Cloudfare Warp] The free app that makes your Internet safer
 - [Notion] App to write, plan, collaborate, and get organized
 - [Monitor Control] Tool to control external monitor brightness & volume
+- [OnlyOffice] Document editor
+- [Atlassian SourceTree] a free Git client for Mac
+
 
 [Firefox]: https://www.mozilla.org/en-US/firefox/new/
-[Microsoft Edge]: https://www.microsoft.com/en-us/edge
+[Vivaldi]: https://vivaldi.com
 [google chrome]: https://www.google.com/chrome/
 [postman]: https://www.postman.com/
-[iterm2]: https://www.iterm2.com/
+[Hyper]: https://hyper.is
 [homebrew]: http://brew.sh/
 [rvm]: https://rvm.io/
-[nvm]: https://github.com/creationix/nvm
 [zsh]: http://www.zsh.org/
 [oh-my-zsh]: http://ohmyz.sh/
 [vs code]: https://code.visualstudio.com/
@@ -67,15 +69,24 @@ Do you want to install Microsoft's dependencies? [y|N]
 [Cloudfare Warp]: https://cloudflarewarp.com/
 [Notion]: https://www.notion.so/
 [Monitor Control]: https://github.com/MonitorControl/MonitorControl
+[OnlyOffice]: https://www.onlyoffice.com/
+[atlassian sourcetree]: https://www.sourcetreeapp.com/
+
+### Backend
+
+- [NVM] for managing versions of Node.JS
+- [ngrok] Reverse proxy, secure introspectable tunnels to localhost
+
+[NVM]: https://github.com/creationix/nvm
+[ngrok]: https://ngrok.com
 
 ### iOS
 
 - [Cocoapods] a dependency manager for Cocoa projects
-- [Atlassian SourceTree] a free Git client for Mac
+
 - [Xcodes] Xcode Version Management
 
 [cocoapods]: https://cocoapods.org/
-[atlassian sourcetree]: https://www.sourcetreeapp.com/
 [Xcodes]: https://github.com/XcodesOrg/XcodesApp
 
 ### Android
@@ -93,12 +104,7 @@ Do you want to install Microsoft's dependencies? [y|N]
 
 - [Microsoft Teams] Meet, chat, call, and collaborate in just one place
 - [Microsoft Outlook] Email Client From Microsoft
-- [Microsoft Word] Word Processing Program
-- [Microsoft Excel] Spreadsheet Processing Program
-- [Microsoft Powerpoint] Presentation Slide
 
 [Microsoft Teams]: https://www.microsoft.com/en-us/microsoft-teams/group-chat-software
 [Microsoft Outlook]: https://outlook.live.com/owa/
-[Microsoft Word]: https://www.microsoft.com/en-us/microsoft-365/word
-[Microsoft Excel]: https://www.microsoft.com/en-us/microsoft-365/excel
-[Microsoft Powerpoint]: https://www.microsoft.com/en-us/microsoft-365/powerpoint
+
