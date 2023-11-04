@@ -160,6 +160,16 @@ install_general_dependencies() {
     brew install --force --cask visual-studio-code
     brew install --force --cask the-unarchiver
     brew install --force --cask cakebrew
+    brew install --force --cask onlyoffice
+
+    fancy_echo "Installed general dependencies"
+}
+
+install_backend_dependencies() {
+    fancy_echo "Installing backend dependencies"
+
+    brew install --force --cask ngrok
+    brew install --force nvm
 
     fancy_echo "Installed general dependencies"
 }
@@ -188,9 +198,6 @@ install_microsoft_dependencies() {
     fancy_echo "Installing Microsoft dependencies"
 
     brew install --force --cask microsoft-teams
-    brew install --force --cask microsoft-word
-    brew install --force --cask microsoft-powerpoint
-    brew install --force --cask microsoft-excel
     brew install --force --cask microsoft-outlook
     brew install --force --cask microsoft-auto-update
 
@@ -200,6 +207,7 @@ install_microsoft_dependencies() {
 install() {
   read -r -p "Do you want to install default dependencies? [y|N] " default_dep
   read -r -p "Do you want to install iOS's dependencies? [y|N] " ios_dep
+  read -r -p "Do you want to install Backend's dependencies? [y|N] " backend_dep
   read -r -p "Do you want to install Android's dependencies? [y|N] " android_dep
   read -r -p "Do you want to install Microsoft's dependencies? [y|N] " microsoft_dep
   pre_setup
@@ -208,6 +216,10 @@ install() {
 
   if [[ $default_dep =~ (y|yes|Y) ]];then
     install_general_dependencies
+  fi
+
+  if [[ $backend_dep =~ (y|yes|Y) ]];then
+    install_backend_dependencies
   fi
 
   if [[ $ios_dep =~ (y|yes|Y) ]];then
