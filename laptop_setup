@@ -161,6 +161,7 @@ install_general_dependencies() {
     brew install --force --cask the-unarchiver
     brew install --force --cask cakebrew
     brew install --force --cask onlyoffice
+    brew install --force --cask sourcetree
 
     fancy_echo "Installed general dependencies"
 }
@@ -178,7 +179,6 @@ install_ios_dependencies() {
     fancy_echo "Installing iOS dependencies"
 
     brew install cocoapods  
-    brew install --force --cask sourcetree
     brew install --force --cask xcodes
 
     fancy_echo "Installed iOS dependencies"
