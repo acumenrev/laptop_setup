@@ -162,6 +162,7 @@ install_general_dependencies() {
     brew install --force --cask cakebrew
     brew install --force --cask onlyoffice
     brew install --force --cask sourcetree
+    brew install --force --cask finicky
 
     fancy_echo "Installed general dependencies"
 }

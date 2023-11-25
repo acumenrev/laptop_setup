@@ -48,6 +48,7 @@ Do you want to install Microsoft dependencies? [y|N]
 - [Monitor Control] Tool to control external monitor brightness & volume
 - [OnlyOffice] Document editor
 - [Atlassian SourceTree] a free Git client for Mac
+- [Finicky]: Finicky is a macOS application that allows you to set up rules that decide which browser is opened for every link or url.
 
 
 [Firefox]: https://www.mozilla.org/en-US/firefox/new/
@@ -71,6 +72,7 @@ Do you want to install Microsoft dependencies? [y|N]
 [Monitor Control]: https://github.com/MonitorControl/MonitorControl
 [OnlyOffice]: https://www.onlyoffice.com/
 [atlassian sourcetree]: https://www.sourcetreeapp.com/
+[Finicky]: https://github.com/johnste/finicky
 
 ### Backend
 
