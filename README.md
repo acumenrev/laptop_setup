@@ -49,6 +49,7 @@ Do you want to install Microsoft dependencies? [y|N]
 - [OnlyOffice] Document editor
 - [Atlassian SourceTree] a free Git client for Mac
 - [Finicky]: Finicky is a macOS application that allows you to set up rules that decide which browser is opened for every link or url.
+- [Heynote]: A dedicated scratchpad for developers
 
 
 [Firefox]: https://www.mozilla.org/en-US/firefox/new/
@@ -73,6 +74,7 @@ Do you want to install Microsoft dependencies? [y|N]
 [OnlyOffice]: https://www.onlyoffice.com/
 [atlassian sourcetree]: https://www.sourcetreeapp.com/
 [Finicky]: https://github.com/johnste/finicky
+[Heynote]: https://github.com/heyman/heynote/
 
 ### Backend
 
