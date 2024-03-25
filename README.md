@@ -53,7 +53,7 @@ Do you want to install Microsoft dependencies? [y|N]
 
 
 [Firefox]: https://www.mozilla.org/en-US/firefox/new/
-[Brave]: https://brave.com/
+[Brave Browser]: https://brave.com/
 [google chrome]: https://www.google.com/chrome/
 [postman]: https://www.postman.com/
 [iTerm2]: https://iterm2.com/
