@@ -29,10 +29,10 @@ Do you want to install Microsoft dependencies? [y|N]
 
 ### Default
 - [Firefox] Firefox Browser
-- [Vivaldi] Vivaldi Browser
+- [Brave Browser] Brave Browser: The browser that puts you first
 - [Google Chrome] Google Chrome
 - [Postman] a collaboration platform for API development
-- [Hyper] a replacement for Terminal
+- [iTerm2] a replacement for Terminal
 - [Homebrew] for managing operating system libraries
 - [Zsh] as your shell
 - [oh-my-zsh] to spice up your shell
@@ -53,10 +53,10 @@ Do you want to install Microsoft dependencies? [y|N]
 
 
 [Firefox]: https://www.mozilla.org/en-US/firefox/new/
-[Vivaldi]: https://vivaldi.com
+[Brave]: https://brave.com/
 [google chrome]: https://www.google.com/chrome/
 [postman]: https://www.postman.com/
-[Hyper]: https://hyper.is
+[iTerm2]: https://iterm2.com/
 [homebrew]: http://brew.sh/
 [rvm]: https://rvm.io/
 [zsh]: http://www.zsh.org/
