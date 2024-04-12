@@ -50,6 +50,7 @@ Do you want to install Microsoft dependencies? [y|N]
 - [Atlassian SourceTree] a free Git client for Mac
 - [Finicky]: Finicky is a macOS application that allows you to set up rules that decide which browser is opened for every link or url.
 - [Heynote]: A dedicated scratchpad for developers
+- [Dozer]: Hide menu bar icons to give your Mac a cleaner look.
 
 
 [Firefox]: https://www.mozilla.org/en-US/firefox/new/
@@ -75,6 +76,7 @@ Do you want to install Microsoft dependencies? [y|N]
 [atlassian sourcetree]: https://www.sourcetreeapp.com/
 [Finicky]: https://github.com/johnste/finicky
 [Heynote]: https://github.com/heyman/heynote/
+[Dozer]: https://github.com/Mortennn/Dozer
 
 ### Backend
 
