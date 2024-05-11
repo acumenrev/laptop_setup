@@ -51,6 +51,7 @@ Do you want to install Microsoft dependencies? [y|N]
 - [Finicky]: Finicky is a macOS application that allows you to set up rules that decide which browser is opened for every link or url.
 - [Heynote]: A dedicated scratchpad for developers
 - [Dozer]: Hide menu bar icons to give your Mac a cleaner look.
+- [Superfile]: Navigating folders inside terminal
 
 
 [Firefox]: https://www.mozilla.org/en-US/firefox/new/
@@ -77,6 +78,7 @@ Do you want to install Microsoft dependencies? [y|N]
 [Finicky]: https://github.com/johnste/finicky
 [Heynote]: https://github.com/heyman/heynote/
 [Dozer]: https://github.com/Mortennn/Dozer
+[Superfile]: https://github.com/MHNightCat/superfile
 
 ### Backend
 
