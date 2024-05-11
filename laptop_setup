@@ -165,6 +165,7 @@ install_general_dependencies() {
     brew install --force --cask heynote
     brew install --force --cask brave-browser
     brew install --force --cask dozer
+    brew install --force --cask superfile
 
     fancy_echo "Installed general dependencies"
 }
