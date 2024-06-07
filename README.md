@@ -29,7 +29,7 @@ Do you want to install Microsoft dependencies? [y|N]
 
 ### Default
 - [Firefox] Firefox Browser
-- [Brave Browser] Brave Browser: The browser that puts you first
+- [Vivaldi] Web browser with built-in email client focusing on customization and control
 - [Google Chrome] Google Chrome
 - [Postman] a collaboration platform for API development
 - [iTerm2] a replacement for Terminal
@@ -52,10 +52,11 @@ Do you want to install Microsoft dependencies? [y|N]
 - [Heynote]: A dedicated scratchpad for developers
 - [Dozer]: Hide menu bar icons to give your Mac a cleaner look.
 - [Superfile]: Navigating folders inside terminal
+- [Maccy]: Clipboard Management
 
 
 [Firefox]: https://www.mozilla.org/en-US/firefox/new/
-[Brave Browser]: https://brave.com/
+[Vivaldi]: https://vivaldi.com
 [google chrome]: https://www.google.com/chrome/
 [postman]: https://www.postman.com/
 [iTerm2]: https://iterm2.com/
@@ -79,6 +80,7 @@ Do you want to install Microsoft dependencies? [y|N]
 [Heynote]: https://github.com/heyman/heynote/
 [Dozer]: https://github.com/Mortennn/Dozer
 [Superfile]: https://github.com/MHNightCat/superfile
+[Maccy]: https://maccy.app
 
 ### Backend
 
