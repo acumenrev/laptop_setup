@@ -53,6 +53,7 @@ Do you want to install Microsoft dependencies? [y|N]
 - [Dozer]: Hide menu bar icons to give your Mac a cleaner look.
 - [Superfile]: Navigating folders inside terminal
 - [Maccy]: Clipboard Management
+- [Fork]: Git Client
 
 
 [Firefox]: https://www.mozilla.org/en-US/firefox/new/
@@ -81,6 +82,7 @@ Do you want to install Microsoft dependencies? [y|N]
 [Dozer]: https://github.com/Mortennn/Dozer
 [Superfile]: https://github.com/MHNightCat/superfile
 [Maccy]: https://maccy.app
+[Fork]: https://fork.dev/
 
 ### Backend
 
