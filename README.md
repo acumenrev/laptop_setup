@@ -56,7 +56,7 @@ Do you want to install Microsoft dependencies? [y|N]
 
 
 [Firefox]: https://www.mozilla.org/en-US/firefox/new/
-[Microsoft Edge]: [https://vivaldi.com](https://www.microsoft.com/en-us/edge?form)
+[Microsoft Edge]: https://www.microsoft.com/en-us/edge?form
 [google chrome]: https://www.google.com/chrome/
 [postman]: https://www.postman.com/
 [iTerm2]: https://iterm2.com/
