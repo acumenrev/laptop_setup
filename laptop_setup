@@ -158,12 +158,10 @@ install_general_dependencies() {
     brew install --force --cask monitorcontrol
     brew install --force --cask visual-studio-code
     brew install --force --cask the-unarchiver
-    brew install --force --cask cakebrew
     brew install --force --cask onlyoffice
-    brew install --force --cask sourcetree
     brew install --force --cask finicky
     brew install --force --cask heynote
-    brew install --force --cask vivaldi
+    brew install --force --cask microsoft-edge
     brew install --force --cask dozer
     brew install --force --cask superfile  
     brew install --force --cask maccy

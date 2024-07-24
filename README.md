@@ -29,7 +29,7 @@ Do you want to install Microsoft dependencies? [y|N]
 
 ### Default
 - [Firefox] Firefox Browser
-- [Vivaldi] Web browser with built-in email client focusing on customization and control
+- [Microsoft Edge] Microsoft Edge is the AI-powered browser. A smarter way to protect create find browse game shop learn
 - [Google Chrome] Google Chrome
 - [Postman] a collaboration platform for API development
 - [iTerm2] a replacement for Terminal
@@ -47,7 +47,6 @@ Do you want to install Microsoft dependencies? [y|N]
 - [Notion] App to write, plan, collaborate, and get organized
 - [Monitor Control] Tool to control external monitor brightness & volume
 - [OnlyOffice] Document editor
-- [Atlassian SourceTree] a free Git client for Mac
 - [Finicky]: Finicky is a macOS application that allows you to set up rules that decide which browser is opened for every link or url.
 - [Heynote]: A dedicated scratchpad for developers
 - [Dozer]: Hide menu bar icons to give your Mac a cleaner look.
@@ -57,7 +56,7 @@ Do you want to install Microsoft dependencies? [y|N]
 
 
 [Firefox]: https://www.mozilla.org/en-US/firefox/new/
-[Vivaldi]: https://vivaldi.com
+[Microsoft Edge]: https://www.microsoft.com/en-us/edge?form
 [google chrome]: https://www.google.com/chrome/
 [postman]: https://www.postman.com/
 [iTerm2]: https://iterm2.com/
@@ -76,7 +75,6 @@ Do you want to install Microsoft dependencies? [y|N]
 [Notion]: https://www.notion.so/
 [Monitor Control]: https://github.com/MonitorControl/MonitorControl
 [OnlyOffice]: https://www.onlyoffice.com/
-[atlassian sourcetree]: https://www.sourcetreeapp.com/
 [Finicky]: https://github.com/johnste/finicky
 [Heynote]: https://github.com/heyman/heynote/
 [Dozer]: https://github.com/Mortennn/Dozer
