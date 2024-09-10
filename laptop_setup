@@ -166,6 +166,7 @@ install_general_dependencies() {
     brew install --force --cask superfile  
     brew install --force --cask maccy
     brew install --force --cask fork
+    brew install --force --cask marta
 
     fancy_echo "Installed general dependencies"
 }
