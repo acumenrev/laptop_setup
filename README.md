@@ -53,6 +53,7 @@ Do you want to install Microsoft dependencies? [y|N]
 - [Superfile]: Navigating folders inside terminal
 - [Maccy]: Clipboard Management
 - [Fork]: Git Client
+- [Marta]: File Manager for macOS.
 
 
 [Firefox]: https://www.mozilla.org/en-US/firefox/new/
@@ -81,6 +82,7 @@ Do you want to install Microsoft dependencies? [y|N]
 [Superfile]: https://github.com/MHNightCat/superfile
 [Maccy]: https://maccy.app
 [Fork]: https://fork.dev/
+[Marta]: https://marta.sh/
 
 ### Backend
 
