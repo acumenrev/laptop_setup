@@ -54,6 +54,7 @@ Do you want to install Microsoft dependencies? [y|N]
 - [Maccy]: Clipboard Management
 - [Fork]: Git Client
 - [Marta]: File Manager for macOS.
+- [Warp]: Warp is the terminal with AI and your dev team's knowledge built-in.
 
 
 [Firefox]: https://www.mozilla.org/en-US/firefox/new/
@@ -83,6 +84,7 @@ Do you want to install Microsoft dependencies? [y|N]
 [Maccy]: https://maccy.app
 [Fork]: https://fork.dev/
 [Marta]: https://marta.sh/
+[Warp]: https://www.warp.dev/
 
 ### Backend
 
