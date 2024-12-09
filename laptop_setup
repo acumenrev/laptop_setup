@@ -168,6 +168,7 @@ install_general_dependencies() {
     brew install --force --cask fork
     brew install --force --cask marta
     brew install --force --cask warp
+    brew install --force --cask adguard
 
     fancy_echo "Installed general dependencies"
 }

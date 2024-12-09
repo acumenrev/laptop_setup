@@ -55,6 +55,7 @@ Do you want to install Microsoft dependencies? [y|N]
 - [Fork]: Git Client
 - [Marta]: File Manager for macOS.
 - [Warp]: Warp is the terminal with AI and your dev team's knowledge built-in.
+- [Adguard]: Stand alone ad blocker
 
 
 [Firefox]: https://www.mozilla.org/en-US/firefox/new/
@@ -85,6 +86,7 @@ Do you want to install Microsoft dependencies? [y|N]
 [Fork]: https://fork.dev/
 [Marta]: https://marta.sh/
 [Warp]: https://www.warp.dev/
+[Adguard]: https://adguard.com/
 
 ### Backend
 
