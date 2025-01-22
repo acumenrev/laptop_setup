@@ -37,7 +37,6 @@ Do you want to install Microsoft dependencies? [y|N]
 - [Zsh] as your shell
 - [oh-my-zsh] to spice up your shell
 - [VS Code] code editor
-- [Proton VPN] Proton VPN
 - [Rectangle] Move and resize windows in macOS using keyboard shortcuts or snap areas
 - [Sublime Text] Text Editing, Done Right
 - [DBeaver Community Edition]  Universal Database Tool 
@@ -56,6 +55,11 @@ Do you want to install Microsoft dependencies? [y|N]
 - [Marta]: File Manager for macOS.
 - [Warp]: Warp is the terminal with AI and your dev team's knowledge built-in.
 - [Adguard]: Stand alone ad blocker
+- [Adguard-VPN]: VPN for privacy and security
+- [Telegram]: Messaging app with a focus on speed and security
+- [Ice Menu Bar]: Ice is a powerful menu bar management tool. While its primary function is hiding and showing menu bar items, it aims to cover a wide variety of additional features to make it one of the most versatile menu bar tools available.
+
+
 
 
 [Firefox]: https://www.mozilla.org/en-US/firefox/new/
@@ -68,7 +72,6 @@ Do you want to install Microsoft dependencies? [y|N]
 [zsh]: http://www.zsh.org/
 [oh-my-zsh]: http://ohmyz.sh/
 [vs code]: https://code.visualstudio.com/
-[Proton VPN]: https://protonvpn.com/
 [Rectangle]: https://rectangleapp.com/
 [Sublime Text]: https://www.sublimetext.com/
 [DBeaver Community Edition]: https://dbeaver.io/
@@ -87,6 +90,9 @@ Do you want to install Microsoft dependencies? [y|N]
 [Marta]: https://marta.sh/
 [Warp]: https://www.warp.dev/
 [Adguard]: https://adguard.com/
+[Adguard-VPN]: https://adguard-vpn.com/
+[Telegram]: https://macos.telegram.org/
+[Ice Menu Bar]: https://github.com/jordanbaird/Ice
 
 ### Backend
 
