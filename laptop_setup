@@ -147,7 +147,6 @@ install_general_dependencies() {
     brew install --force --cask google-chrome
     brew install --force --cask postman
     brew install --force --cask iterm2
-    brew install --force --cask protonvpn
     brew install --force --cask rectangle
     brew install --force --cask sublime-text
     brew install --force --cask dbeaver-community
@@ -169,6 +168,9 @@ install_general_dependencies() {
     brew install --force --cask marta
     brew install --force --cask warp
     brew install --force --cask adguard
+    brew install --force --cask adguard-vpn
+    brew install --force --cask telegram
+    brew install --force jordanbaird-ice
 
     fancy_echo "Installed general dependencies"
 }
