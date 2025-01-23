@@ -142,74 +142,107 @@ install_dependencies() {
 
 install_general_dependencies() {
     fancy_echo "Installing general dependencies"
+    PACKAGES=(
+      "firefox"
+      "google-chrome"
+      "postman"
+      "iterm2"
+      "rectangle"
+      "sublime-text"
+      "dbeaver-community"
+      "lulu"
+      "openkey"
+      "cloudflare-warp"
+      "notion"
+      "monitorcontrol"
+      "visual-studio-code"
+      "the-unarchiver"
+      "onlyoffice"
+      "finicky"
+      "heynote"
+      "microsoft-edge"
+      "dozer"
+      "superfile"
+      "maccy"
+      "fork"
+      "marta"
+      "warp"
+      "adguard"
+      "adguard-vpn"
+      "telegram"
+      "jordanbaird-ice"
+      "onyx"
+    )
 
-    brew install --force --cask firefox
-    brew install --force --cask google-chrome
-    brew install --force --cask postman
-    brew install --force --cask iterm2
-    brew install --force --cask rectangle
-    brew install --force --cask sublime-text
-    brew install --force --cask dbeaver-community
-    brew install --force --cask lulu
-    brew install --force --cask openkey
-    brew install --force --cask cloudflare-warp
-    brew install --force --cask notion
-    brew install --force --cask monitorcontrol
-    brew install --force --cask visual-studio-code
-    brew install --force --cask the-unarchiver
-    brew install --force --cask onlyoffice
-    brew install --force --cask finicky
-    brew install --force --cask heynote
-    brew install --force --cask microsoft-edge
-    brew install --force --cask dozer
-    brew install --force --cask superfile  
-    brew install --force --cask maccy
-    brew install --force --cask fork
-    brew install --force --cask marta
-    brew install --force --cask warp
-    brew install --force --cask adguard
-    brew install --force --cask adguard-vpn
-    brew install --force --cask telegram
-    brew install --force jordanbaird-ice
-    brew install --force --cask onyx
+    for pkg in "${PACKAGES[@]}"; do
+      if [[ "$pkg" == "jordanbaird-ice" ]]; then
+        brew install --force "$pkg"
+      else
+        brew install --force --cask "$pkg"
+      fi
+    done
+    
 
     fancy_echo "Installed general dependencies"
 }
 
 install_backend_dependencies() {
     fancy_echo "Installing backend dependencies"
+    PACKAGES=(
+      "nvm"
+    )
+    
+    for pkg in "${PACKAGES[@]}"; do
+      brew install --force "$pkg"
+    done
 
-    brew install --force --cask ngrok
-    brew install --force nvm
-
-    fancy_echo "Installed general dependencies"
+    fancy_echo "Installed backend dependencies"
 }
 
 install_ios_dependencies() {
     fancy_echo "Installing iOS dependencies"
+    PACKAGES=(
+      "cocoapods"
+      "xcodes"
+    )
 
-    brew install cocoapods  
-    brew install --force --cask xcodes
+    for pkg in "${PACKAGES[@]}"; do
+      if [[ "$pkg" == "cocoapods" ]]; then
+        brew install --force "$pkg"
+      else
+        brew install --force --cask "$pkg"
+      fi
+    done
 
     fancy_echo "Installed iOS dependencies"
 }
 
 install_android_dependencies() {
     fancy_echo "Installing Android dependencies"
+    PACKAGES=(
+      "android-studio"
+      "android-sdk"
+      "temurin"
+    )
 
-    brew install --force --cask temurin
-    brew install --force --cask android-studio
-    brew install --force --cask android-sdk
+    for pkg in "${PACKAGES[@]}"; do
+      brew install --force --cask "$pkg"
+    done
 
     fancy_echo "Installed Android dependencies"
 }
 
 install_microsoft_dependencies() {
     fancy_echo "Installing Microsoft dependencies"
+    PACKAGES=(
+      "microsoft-teams"
+      "microsoft-outlook"
+      "microsoft-auto-update"
+    )
 
-    brew install --force --cask microsoft-teams
-    brew install --force --cask microsoft-outlook
-    brew install --force --cask microsoft-auto-update
+    for pkg in "${PACKAGES[@]}"; do
+      yes | brew install --force --cask "$pkg"
+    done
 
     fancy_echo "Installed Microsoft dependencies"
 }
