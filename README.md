@@ -58,7 +58,7 @@ Do you want to install Microsoft dependencies? [y|N]
 - [Adguard-VPN]: VPN for privacy and security
 - [Telegram]: Messaging app with a focus on speed and security
 - [Ice Menu Bar]: Ice is a powerful menu bar management tool. While its primary function is hiding and showing menu bar items, it aims to cover a wide variety of additional features to make it one of the most versatile menu bar tools available.
-
+- [OnyX]: Verify system files structure, run miscellaneous maintenance and more
 
 
 
@@ -93,6 +93,7 @@ Do you want to install Microsoft dependencies? [y|N]
 [Adguard-VPN]: https://adguard-vpn.com/
 [Telegram]: https://macos.telegram.org/
 [Ice Menu Bar]: https://github.com/jordanbaird/Ice
+[OnyX]: https://www.titanium-software.fr/en/onyx.html
 
 ### Backend
 
