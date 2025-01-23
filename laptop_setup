@@ -171,6 +171,7 @@ install_general_dependencies() {
     brew install --force --cask adguard-vpn
     brew install --force --cask telegram
     brew install --force jordanbaird-ice
+    brew install --force --cask onyx
 
     fancy_echo "Installed general dependencies"
 }
