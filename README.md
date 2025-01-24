@@ -59,6 +59,8 @@ Do you want to install Microsoft dependencies? [y|N]
 - [Telegram]: Messaging app with a focus on speed and security
 - [Ice Menu Bar]: Ice is a powerful menu bar management tool. While its primary function is hiding and showing menu bar items, it aims to cover a wide variety of additional features to make it one of the most versatile menu bar tools available.
 - [OnyX]: Verify system files structure, run miscellaneous maintenance and more
+- [Bitwarden]: Desktop password and login vault
+
 
 
 
@@ -94,6 +96,7 @@ Do you want to install Microsoft dependencies? [y|N]
 [Telegram]: https://macos.telegram.org/
 [Ice Menu Bar]: https://github.com/jordanbaird/Ice
 [OnyX]: https://www.titanium-software.fr/en/onyx.html
+[Bitwarden]: https://bitwarden.com/
 
 ### Backend
 

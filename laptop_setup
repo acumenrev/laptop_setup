@@ -150,9 +150,7 @@ install_general_dependencies() {
       "rectangle"
       "sublime-text"
       "dbeaver-community"
-      "lulu"
       "openkey"
-      "cloudflare-warp"
       "notion"
       "monitorcontrol"
       "visual-studio-code"
@@ -161,9 +159,7 @@ install_general_dependencies() {
       "finicky"
       "heynote"
       "microsoft-edge"
-      "dozer"
       "superfile"
-      "maccy"
       "fork"
       "marta"
       "warp"
@@ -172,13 +168,14 @@ install_general_dependencies() {
       "telegram"
       "jordanbaird-ice"
       "onyx"
+      "bitwarden"
     )
 
     for pkg in "${PACKAGES[@]}"; do
       if [[ "$pkg" == "jordanbaird-ice" ]]; then
-        brew install --force "$pkg"
+        yes | brew install --force "$pkg"
       else
-        brew install --force --cask "$pkg"
+        yes | brew install --force --cask "$pkg"
       fi
     done
     
@@ -208,9 +205,9 @@ install_ios_dependencies() {
 
     for pkg in "${PACKAGES[@]}"; do
       if [[ "$pkg" == "cocoapods" ]]; then
-        brew install --force "$pkg"
+        yes | brew install --force "$pkg"
       else
-        brew install --force --cask "$pkg"
+        yes | brew install --force --cask "$pkg"
       fi
     done
 
@@ -226,7 +223,7 @@ install_android_dependencies() {
     )
 
     for pkg in "${PACKAGES[@]}"; do
-      brew install --force --cask "$pkg"
+      yes | brew install --force --cask "$pkg"
     done
 
     fancy_echo "Installed Android dependencies"
