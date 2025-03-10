@@ -148,7 +148,7 @@ install_general_dependencies() {
       "postman"
       "iterm2"
       "rectangle"
-      "sublime-text"
+      "coteditor"
       "dbeaver-community"
       "openkey"
       "notion"
@@ -159,15 +159,11 @@ install_general_dependencies() {
       "finicky"
       "heynote"
       "microsoft-edge"
-      "superfile"
       "fork"
-      "marta"
-      "warp"
       "adguard"
       "adguard-vpn"
       "telegram"
       "jordanbaird-ice"
-      "onyx"
       "bitwarden"
     )
 
@@ -229,27 +225,11 @@ install_android_dependencies() {
     fancy_echo "Installed Android dependencies"
 }
 
-install_microsoft_dependencies() {
-    fancy_echo "Installing Microsoft dependencies"
-    PACKAGES=(
-      "microsoft-teams"
-      "microsoft-outlook"
-      "microsoft-auto-update"
-    )
-
-    for pkg in "${PACKAGES[@]}"; do
-      yes | brew install --force --cask "$pkg"
-    done
-
-    fancy_echo "Installed Microsoft dependencies"
-}
-
 install() {
   read -r -p "Do you want to install default dependencies? [y|N] " default_dep
   read -r -p "Do you want to install iOS's dependencies? [y|N] " ios_dep
   read -r -p "Do you want to install Backend's dependencies? [y|N] " backend_dep
   read -r -p "Do you want to install Android's dependencies? [y|N] " android_dep
-  read -r -p "Do you want to install Microsoft's dependencies? [y|N] " microsoft_dep
   pre_setup
   install_homebrew
   install_dependencies
@@ -268,10 +248,6 @@ install() {
 
   if [[ $android_dep =~ (y|yes|Y) ]];then
     install_android_dependencies
-  fi
-
-  if [[ $microsoft_dep =~ (y|yes|Y) ]];then
-    install_microsoft_dependencies
   fi
 
   brew cleanup
