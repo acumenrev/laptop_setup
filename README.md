@@ -60,6 +60,7 @@ Do you want to install Microsoft dependencies? [y|N]
 - [Ice Menu Bar]: Ice is a powerful menu bar management tool. While its primary function is hiding and showing menu bar items, it aims to cover a wide variety of additional features to make it one of the most versatile menu bar tools available.
 - [OnyX]: Verify system files structure, run miscellaneous maintenance and more
 - [Bitwarden]: Desktop password and login vault
+- [CotEditor]: The Plain-Text Editor for macOS
 
 
 
@@ -97,6 +98,7 @@ Do you want to install Microsoft dependencies? [y|N]
 [Ice Menu Bar]: https://github.com/jordanbaird/Ice
 [OnyX]: https://www.titanium-software.fr/en/onyx.html
 [Bitwarden]: https://bitwarden.com/
+[CotEditor]: https://coteditor.com/
 
 ### Backend
 
@@ -124,13 +126,4 @@ Do you want to install Microsoft dependencies? [y|N]
 [temurin]: https://adoptium.net
 [android studio]: https://developer.android.com/studio/index.html
 [android sdk]: https://developer.android.com/studio/releases/sdk-tools
-
-
-### Microsoft
-
-- [Microsoft Teams] Meet, chat, call, and collaborate in just one place
-- [Microsoft Outlook] Email Client From Microsoft
-
-[Microsoft Teams]: https://www.microsoft.com/en-us/microsoft-teams/group-chat-software
-[Microsoft Outlook]: https://outlook.live.com/owa/
 
