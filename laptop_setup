@@ -164,7 +164,7 @@ install_general_dependencies() {
       "adguard-vpn"
       "telegram"
       "jordanbaird-ice"
-      "bitwarden"
+      "intellidock"
     )
 
     for pkg in "${PACKAGES[@]}"; do
