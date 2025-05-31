@@ -62,6 +62,7 @@ Do you want to install Microsoft dependencies? [y|N]
 - [Bitwarden]: Desktop password and login vault
 - [CotEditor]: The Plain-Text Editor for macOS
 - [intellidock]: Hides the Dock when it is overlapped by a window
+- [keka]: the macOS file archiver. Store more, share with privacy
 
 
 
@@ -101,6 +102,7 @@ Do you want to install Microsoft dependencies? [y|N]
 [Bitwarden]: https://bitwarden.com/
 [CotEditor]: https://coteditor.com/
 [intellidock]: https://mightymac.app/intellidock/
+[keka]: https://www.keka.io/en/
 
 ### Backend
 
