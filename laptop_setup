@@ -154,7 +154,6 @@ install_general_dependencies() {
       "notion"
       "monitorcontrol"
       "visual-studio-code"
-      "the-unarchiver"
       "onlyoffice"
       "finicky"
       "heynote"
