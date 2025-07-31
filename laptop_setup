@@ -165,6 +165,7 @@ install_general_dependencies() {
       "jordanbaird-ice"
       "intellidock"
       "keka"
+      "applite"
     )
 
     for pkg in "${PACKAGES[@]}"; do
