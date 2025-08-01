@@ -63,6 +63,7 @@ Do you want to install Microsoft dependencies? [y|N]
 - [CotEditor]: The Plain-Text Editor for macOS
 - [intellidock]: Hides the Dock when it is overlapped by a window
 - [keka]: the macOS file archiver. Store more, share with privacy
+- [AppLite]: Make managing third party applications a breeze with Applite
 
 
 
@@ -103,6 +104,7 @@ Do you want to install Microsoft dependencies? [y|N]
 [CotEditor]: https://coteditor.com/
 [intellidock]: https://mightymac.app/intellidock/
 [keka]: https://www.keka.io/en/
+[AppLite]: https://aerolite.dev/applite
 
 ### Backend
 
