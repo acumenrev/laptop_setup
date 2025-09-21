@@ -166,6 +166,7 @@ install_general_dependencies() {
       "intellidock"
       "keka"
       "applite"
+      "alt-tab"
     )
 
     for pkg in "${PACKAGES[@]}"; do

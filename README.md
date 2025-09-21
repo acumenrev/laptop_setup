@@ -64,6 +64,7 @@ Do you want to install Microsoft dependencies? [y|N]
 - [intellidock]: Hides the Dock when it is overlapped by a window
 - [keka]: the macOS file archiver. Store more, share with privacy
 - [AppLite]: Make managing third party applications a breeze with Applite
+- [AltTab]: Windows alt-tab on macOS
 
 
 
@@ -105,6 +106,7 @@ Do you want to install Microsoft dependencies? [y|N]
 [intellidock]: https://mightymac.app/intellidock/
 [keka]: https://www.keka.io/en/
 [AppLite]: https://aerolite.dev/applite
+[AltTab]: https://alt-tab-macos.netlify.app/
 
 ### Backend
 
