@@ -177,6 +177,7 @@ install_general_dependencies() {
       fi
     done
     
+    brew install --force --cask TheBoredTeam/boring-notch/boring-notch --no-quarantine
 
     fancy_echo "Installed general dependencies"
 }

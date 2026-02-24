@@ -65,6 +65,7 @@ Do you want to install Microsoft dependencies? [y|N]
 - [keka]: the macOS file archiver. Store more, share with privacy
 - [AppLite]: Make managing third party applications a breeze with Applite
 - [AltTab]: Windows alt-tab on macOS
+- [BoringNotch]: the coolest way to make your MacBook’s notch the star of the show! 
 
 
 
@@ -107,6 +108,7 @@ Do you want to install Microsoft dependencies? [y|N]
 [keka]: https://www.keka.io/en/
 [AppLite]: https://aerolite.dev/applite
 [AltTab]: https://alt-tab-macos.netlify.app/
+[BoringNotch]: https://github.com/TheBoredTeam/boring.notch
 
 ### Backend
 
