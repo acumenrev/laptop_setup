@@ -162,7 +162,7 @@ install_general_dependencies() {
       "adguard"
       "adguard-vpn"
       "telegram"
-      "jordanbaird-ice"
+      "thaw"
       "intellidock"
       "keka"
       "applite"

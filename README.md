@@ -57,7 +57,7 @@ Do you want to install Microsoft dependencies? [y|N]
 - [Adguard]: Stand alone ad blocker
 - [Adguard-VPN]: VPN for privacy and security
 - [Telegram]: Messaging app with a focus on speed and security
-- [Ice Menu Bar]: Ice is a powerful menu bar management tool. While its primary function is hiding and showing menu bar items, it aims to cover a wide variety of additional features to make it one of the most versatile menu bar tools available.
+- [Thaw]: a powerful menu bar management tool for macOS 26
 - [OnyX]: Verify system files structure, run miscellaneous maintenance and more
 - [Bitwarden]: Desktop password and login vault
 - [CotEditor]: The Plain-Text Editor for macOS
@@ -100,7 +100,7 @@ Do you want to install Microsoft dependencies? [y|N]
 [Adguard]: https://adguard.com/
 [Adguard-VPN]: https://adguard-vpn.com/
 [Telegram]: https://macos.telegram.org/
-[Ice Menu Bar]: https://github.com/jordanbaird/Ice
+[Thaw]: https://github.com/stonerl/Thaw
 [OnyX]: https://www.titanium-software.fr/en/onyx.html
 [Bitwarden]: https://bitwarden.com/
 [CotEditor]: https://coteditor.com/
