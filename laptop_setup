@@ -147,7 +147,7 @@ install_general_dependencies() {
       "google-chrome"
       "postman"
       "iterm2"
-      "rectangle"
+      "loop"
       "coteditor"
       "dbeaver-community"
       "openkey"
@@ -167,6 +167,7 @@ install_general_dependencies() {
       "keka"
       "applite"
       "alt-tab"
+      "hiddenbar"
     )
 
     for pkg in "${PACKAGES[@]}"; do
@@ -200,6 +201,7 @@ install_ios_dependencies() {
     PACKAGES=(
       "cocoapods"
       "xcodes"
+      "minisim"
     )
 
     for pkg in "${PACKAGES[@]}"; do

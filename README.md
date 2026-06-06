@@ -37,7 +37,7 @@ Do you want to install Microsoft dependencies? [y|N]
 - [Zsh] as your shell
 - [oh-my-zsh] to spice up your shell
 - [VS Code] code editor
-- [Rectangle] Move and resize windows in macOS using keyboard shortcuts or snap areas
+- [Loop] Window management made elegant.
 - [Sublime Text] Text Editing, Done Right
 - [DBeaver Community Edition]  Universal Database Tool 
 - [LuLu] LuLu is the free, open-source firewall that aims to block unknown outgoing connections, protecting your privacy and your Mac! 
@@ -66,6 +66,7 @@ Do you want to install Microsoft dependencies? [y|N]
 - [AppLite]: Make managing third party applications a breeze with Applite
 - [AltTab]: Windows alt-tab on macOS
 - [BoringNotch]: the coolest way to make your MacBook’s notch the star of the show! 
+- [HiddenBar]: Hidden Bar lets you hide menu bar items to give your Mac a cleaner look.
 
 
 
@@ -80,7 +81,7 @@ Do you want to install Microsoft dependencies? [y|N]
 [zsh]: http://www.zsh.org/
 [oh-my-zsh]: http://ohmyz.sh/
 [vs code]: https://code.visualstudio.com/
-[Rectangle]: https://rectangleapp.com/
+[Loop]: https://github.com/MrKai77/Loop
 [Sublime Text]: https://www.sublimetext.com/
 [DBeaver Community Edition]: https://dbeaver.io/
 [LuLu]: https://objective-see.org/products/lulu.html
@@ -109,6 +110,7 @@ Do you want to install Microsoft dependencies? [y|N]
 [AppLite]: https://aerolite.dev/applite
 [AltTab]: https://alt-tab-macos.netlify.app/
 [BoringNotch]: https://github.com/TheBoredTeam/boring.notch
+[HiddenBar]: https://github.com/dwarvesf/hidden/
 
 ### Backend
 
@@ -124,8 +126,11 @@ Do you want to install Microsoft dependencies? [y|N]
 
 - [Xcodes] Xcode Version Management
 
+- [MiniSim]: App for launching iOS and Android emulators.
+
 [cocoapods]: https://cocoapods.org/
 [Xcodes]: https://github.com/XcodesOrg/XcodesApp
+[MiniSim]: https://www.minisim.app/
 
 ### Android
 
