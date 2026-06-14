@@ -168,6 +168,7 @@ install_general_dependencies() {
       "applite"
       "alt-tab"
       "hiddenbar"
+      "tablepro"
     )
 
     for pkg in "${PACKAGES[@]}"; do

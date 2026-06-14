@@ -67,6 +67,7 @@ Do you want to install Microsoft dependencies? [y|N]
 - [AltTab]: Windows alt-tab on macOS
 - [BoringNotch]: the coolest way to make your MacBook’s notch the star of the show! 
 - [HiddenBar]: Hidden Bar lets you hide menu bar items to give your Mac a cleaner look.
+- [TablePro]: A fast, native database client for developers.
 
 
 
@@ -111,6 +112,7 @@ Do you want to install Microsoft dependencies? [y|N]
 [AltTab]: https://alt-tab-macos.netlify.app/
 [BoringNotch]: https://github.com/TheBoredTeam/boring.notch
 [HiddenBar]: https://github.com/dwarvesf/hidden/
+[TablePro]: https://tablepro.app/
 
 ### Backend
 
