@@ -169,6 +169,7 @@ install_general_dependencies() {
       "alt-tab"
       "hiddenbar"
       "tablepro"
+      "brave-browser"
     )
 
     for pkg in "${PACKAGES[@]}"; do

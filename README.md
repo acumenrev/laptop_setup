@@ -68,6 +68,7 @@ Do you want to install Microsoft dependencies? [y|N]
 - [BoringNotch]: the coolest way to make your MacBook’s notch the star of the show! 
 - [HiddenBar]: Hidden Bar lets you hide menu bar items to give your Mac a cleaner look.
 - [TablePro]: A fast, native database client for developers.
+- [Brave Browser]: Web browser focusing on privacy
 
 
 
