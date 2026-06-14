@@ -114,6 +114,7 @@ Do you want to install Microsoft dependencies? [y|N]
 [BoringNotch]: https://github.com/TheBoredTeam/boring.notch
 [HiddenBar]: https://github.com/dwarvesf/hidden/
 [TablePro]: https://tablepro.app/
+[Brave Browser]: https://brave.com/
 
 ### Backend
 
